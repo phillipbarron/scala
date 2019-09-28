@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="1RThCFvxCKv5ufxpLEpgMJ4b336" />
+  <component name="RunManager">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="hello-world" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../cps-stacks" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../optimo-asset-store" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../optimo-history-api" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>
