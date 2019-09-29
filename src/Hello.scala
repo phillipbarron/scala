@@ -6,7 +6,7 @@ import scala.concurrent.duration.Duration
 
 object Hello extends App {
   val executionContext = ExecutionContext.fromExecutor(Executors.newFixedThreadPool(100))
-  print(s"Number of cores: ${Runtime.getRuntime().availableProcessors()}\n")
+  print(s"Number of cores: ${Runtime.getRuntime.availableProcessors()}\n")
   def printSomething(index: Int) : Future[Unit] = {
     val startTime = System.nanoTime
     Future {
