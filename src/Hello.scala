@@ -7,7 +7,7 @@ object Hello extends App {
   print(s"Number of cores: ${Runtime.getRuntime().availableProcessors()}\n")
   def printSomething(index: Int) : Future[Unit] = {
     Future {
-      Thread.sleep(10)
+      Thread.sleep(100)
       println(s"the index is $index, we are using thread ${Thread.currentThread().getId}")
     }
   }
